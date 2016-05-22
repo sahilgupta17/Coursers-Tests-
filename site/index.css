@@ -1,0 +1,30 @@
+*{
+	box-sizing;border-box;
+}
+h1 {text-align:center;}
+
+.title1 {float:right; border:1px solid #000; background:#F5CBA7; clear:both; font-weight:bold; padding:5px;}
+.title2 {float:right; border:1px solid #000; background:#CB4335; color:#fff; clear:both; font-weight:bold; padding:5px;}
+.title3 {float:right; border:1px solid #000; background:#F7DC6F; clear:both; font-weight:bold; padding:5px;}
+@media screen and ( max-width:767px)
+
+ {
+body{ width:100%; }
+.column-left{ background-color:#7F8C8D; border:1px solid black;  width:90%;   padding:0px 0px 3px 3px; margin:5px; }
+.column-center{ background-color:#7F8C8D; border:1px solid black; width:90%;   padding:0px 0px 3px 3px; margin:5px;  }
+.column-right{ background-color:#7F8C8D; border:1px solid black; width:90%;    padding:0px 0px 3px 3px; margin:5px;  } }
+
+@media screen and (min-width:768px) and (max-width:997px) 
+{
+body{ width:100%; } 
+.column-left{ background-color:#7F8C8D; float:left;  border:1px solid black;  width:45%;  padding:0px 3px 3px 3px; margin:5px; }
+.column-center{background-color:#7F8C8D; float:left;  border:1px solid black; width:45%;  padding:0px 0px 3px 3px; margin:5px;  }
+.column-right{ background-color:#7F8C8D; float:left;   border:1px solid black; width:92.1%;   padding:0px 0px 3px 3px;  margin:5px;  } }
+
+
+@media screen and (min-width:998px)
+ {
+body {  width:100%;  }
+.column-left{ float:left; background-color:#7F8C8D; border:1px solid black;  width:30%;  padding:0px 0px 3px 3px; margin:5px;  }
+.column-center{ float:left; background-color:#7F8C8D; border:1px solid black;  width:30%;   padding:0px 0px 3px 3px;  margin:5px;  }
+.column-right{  float:left;background-color:#7F8C8D; border:1px solid black; width: 30%;     padding:0px 0px 3px 3px; margin:5px;  } }
